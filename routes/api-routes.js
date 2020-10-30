@@ -2,10 +2,9 @@ const express = require("express");
 const router = express.Router();
 const db=require("../models/exercise.js");
 //Endpoint to get the latest workouts
-router.get("/api/workouts",function(req,res){
-    db.find({})
+router.get("/api/workouts",(req,res)=>{
+    db.find()
     .then(dbWorkout => {
-
       res.json(dbWorkout);
     })
     .catch(err => {
@@ -14,9 +13,8 @@ router.get("/api/workouts",function(req,res){
 });
 //Endpoint to get the bashboard of the workouts
 router.get("/api/workouts/range",(req,res) =>{
-    db.find({})
+    db.find()
     .then(dbWorkout => {
-        console.log(dbWorkout);
       res.json(dbWorkout);
     })
     .catch(err => {
