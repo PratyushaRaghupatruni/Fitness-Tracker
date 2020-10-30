@@ -42,7 +42,7 @@ function formatDate(date) {
     month: "long",
     day: "numeric"
   };
-
+  
   return new Date(date).toLocaleDateString(options);
 }
 
