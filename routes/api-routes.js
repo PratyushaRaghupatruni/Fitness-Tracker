@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const db=require("../models/exercise.js");
 //Endpoint to get the latest workouts
-router.get("/api/workouts",(req,res)=>{
+router.get("/api/workouts",(req,res) =>{
     db.find()
     .then(dbWorkout => {
       res.json(dbWorkout);
