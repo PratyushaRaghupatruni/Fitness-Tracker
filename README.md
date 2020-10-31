@@ -4,7 +4,7 @@
 
 # Description
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+A consumer will reach their fitness goals more quickly when they track their workout progress.It allows user to add exercises to a previous or new workout and view stats for multiple workouts.
 
 # Table of Contents
 * [Preview](#Preview)
