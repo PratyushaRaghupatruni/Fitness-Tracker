@@ -14,6 +14,8 @@ A consumer will reach their fitness goals more quickly when they track their wor
 * [Contribution](#contribution)
 * [Questions](#Questions)
 
+# Deployed Website
+![Here is the link to Deployed website](https://pr-fitness-tracker.herokuapp.com/)
 
 # Preview
 
